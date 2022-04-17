@@ -14,25 +14,7 @@ class SecondScreen extends StatelessWidget {
       body: Center(
           child: Column(
         // ignore: prefer_const_literals_to_create_immutables
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(10.0),
-            child: Text(
-              getquotesMsg,
-              style: TextStyle(fontSize: 20),
-            ),
-          ),
-          Padding(
-            padding: EdgeInsets.only(right: 10),
-            child: Align(
-              alignment: Alignment.bottomRight,
-              child: Text(
-                "- $getquotesAuthor",
-                style: const TextStyle(fontSize: 15),
-              ),
-            ),
-          )
-        ],
+        children: [],
       )),
     );
   }
